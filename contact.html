@@ -17,6 +17,11 @@
             background-color: rgb(198, 147, 147);
         }
 
+        header {
+            background-color: aqua;
+            margin-bottom: 50px;
+        }
+
         .header-left {
             max-width: 150px;
         }
@@ -39,6 +44,16 @@
             font-size: 1rem;
             padding-left: 3.5rem;
         }
+
+        .section-content {
+            background-color: darkorange;
+            width: 600px;
+            margin: auto;
+        }
+
+        .section-content p {
+            font-size: 1.2rem;
+        }
     </style>
 </head>
 
@@ -58,22 +73,47 @@
                         <a class="nav-link" aria-current="page" href="#">Experience</a>
                         <a class="nav-link" href="#">Projects</a>
                         <a class="nav-link" href="#">Education</a>
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </nav>
                 </div>
             </div>
         </header>
-        <div class="row">
-            <div class="col">
-                Column
+
+
+        <section class="section-content row">
+            <div class="row">
+                <h1>Contact Me</h1>
+                <p>If you'd like to ask about a project or just have question for me, get in touch with me by filling
+                    the
+                    form below.</p>
             </div>
-            <div class="col">
-                Column
+            <div class="row mt-3">
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class=" col-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    </div>
+
+                    <div class=" mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <div class="col">
-                Column
-            </div>
-        </div>
+        </section>
     </div>
 
 
