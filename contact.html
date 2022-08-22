@@ -15,6 +15,7 @@
             padding: 80px 30px 30px;
             width: 1024px;
             background-color: rgb(198, 147, 147);
+            margin: auto;
         }
 
         header {
@@ -54,12 +55,27 @@
         .section-content p {
             font-size: 1.2rem;
         }
+
+        footer {
+            background-color: aqua;
+            margin-top: 50px;
+        }
+
+        .link-laravel {
+            color: #f9322c;
+            text-decoration: none;
+        }
+
+        .link-laravel:hover {
+            color: #f9322c;
+            text-decoration: underline;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="body-wrapper container">
+    <div class="body-wrapper">
         <header class="row">
             <div class="col-3 header-left">
                 <img src="https://mm.widyatama.ac.id/wp-content/uploads/2020/08/dummy-profile-pic-male1.jpg"
@@ -70,7 +86,7 @@
                 <div class="person-title">Bachelor of Computer Science</div>
                 <div>
                     <nav class="nav">
-                        <a class="nav-link" aria-current="page" href="#">Experience</a>
+                        <a class="nav-link" href="#">Experience</a>
                         <a class="nav-link" href="#">Projects</a>
                         <a class="nav-link" href="#">Education</a>
                         <a class="nav-link" href="#">Contact</a>
@@ -114,6 +130,19 @@
                 </form>
             </div>
         </section>
+
+        <footer class="p-4 my-4 border-top row">
+            <div class="col-3">
+                Built with <a class="link-laravel" href="www.laravel.com">Laravel</a>
+            </div>
+
+            <div class="col-3 offset-md-6 text-end">
+                <span class="">© 2022 Wibisono Indrawan</span>
+                <div class="text-muted" style="font-size:0.7rem;">This website was created as a learning medium for me
+                    to experiment with new things in
+                    programming</div>
+            </div>
+        </footer>
     </div>
 
 
