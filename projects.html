@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"> <!-- Specify the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  gives the browser instructions on how to control the page's dimensions and scaling -->
+    <title>Indra Portofolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <style>
+        .body-wrapper {
+            padding: 80px 30px 30px;
+            width: 1024px;
+            /* background-color: rgb(198, 147, 147); */
+            margin: auto;
+        }
+
+        header {
+            /* background-color: aqua; */
+            margin-bottom: 50px;
+        }
+
+        .header-left {
+            max-width: 150px;
+        }
+
+        .header-left img {
+            border-radius: 50%;
+            width: 110px;
+        }
+
+        .header-right .nav {
+            font-size: 1.5rem;
+        }
+
+        .header-right .person-name {
+            font-size: 2rem;
+            padding-left: 1rem;
+        }
+
+        .header-right .person-title {
+            font-size: 1rem;
+            padding-left: 3.5rem;
+        }
+
+        .section-content {
+            /* background-color: darkorange; */
+            margin: auto;
+        }
+
+        .section-content p {
+            font-size: 1.2rem;
+        }
+
+        footer {
+            /* background-color: aqua; */
+            margin-top: 50px;
+        }
+
+        .link-laravel {
+            color: #f9322c;
+            text-decoration: none;
+        }
+
+        .link-laravel:hover {
+            color: #f9322c;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="body-wrapper">
+        <header class="row border-bottom border-4">
+            <div class="col-3 header-left">
+                <img src="https://mm.widyatama.ac.id/wp-content/uploads/2020/08/dummy-profile-pic-male1.jpg"
+                    alt="Indra Picture">
+            </div>
+            <div class="col-9 header-right">
+                <div class="person-name">Wibisono Indrawan</div>
+                <div class="person-title">Bachelor of Computer Science</div>
+                <div>
+                    <nav class="nav">
+                        <a class="nav-link" href="index.html">Experience</a>
+                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#">Educations</a>
+                        <a class="nav-link" href="tech_stacks.html">Tech Stacks</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="section-content row">
+            <div class="row text-center">
+                <h1>Projects</h1>
+            </div>
+
+            <div class="card border-0 mb-5 col-11 m-auto mt-5">
+                <ul class="nav nav-pills mb-3 m-auto fs-5" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-geniebook-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-geniebook" type="button" role="tab">Geniebook</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-kag-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-kag" type="button" role="tab">Kapal Api Global</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-spk-tab" data-bs-toggle="pill" data-bs-target="#pills-spk"
+                            type="button" role="tab">Santos Premium Krimer</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- ============================= TAB Geniebook================================= -->
+                    <div class="tab-pane fade" id="pills-geniebook" role="tabpanel">
+                        <div class="card border-0 mb-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Geniebook Admin</h5>
+                                <p class="card-text fs-6">Successfully develop a website to manage requests between
+                                    departments.
+                                    Users
+                                    can also see the report for certain requests or departments to see how long it takes
+                                    time to
+                                    complete the request.</p>
+                                <p class="card-text fs-6">After this project was successfully implemented in Santos
+                                    Premium
+                                    Krimer
+                                    then
+                                    it begin to roll out to other Kapal Api companies such as Santos Jaya Abadi, Agel
+                                    Langgeng,
+                                    Excelso Multirasa, and Weiss Tech.</p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">PHP</button>
+                                <button type="button" class="btn btn-primary">Code Igniter</button>
+                                <button type="button" class="btn btn-primary">MySQL</button>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 mb-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Geniebook Arena</h5>
+                                <p class="card-text fs-6">Successfully develop a website to manage requests between
+                                    departments.
+                                    Users
+                                    can also see the report for certain requests or departments to see how long it takes
+                                    time to
+                                    complete the request.</p>
+                                <p class="card-text fs-6">After this project was successfully implemented in Santos
+                                    Premium
+                                    Krimer
+                                    then
+                                    it begin to roll out to other Kapal Api companies such as Santos Jaya Abadi, Agel
+                                    Langgeng,
+                                    Excelso Multirasa, and Weiss Tech.</p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">Golang</button>
+                                <button type="button" class="btn btn-primary">Gin Gonic</button>
+                                <button type="button" class="btn btn-primary">MySQL</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================= END TAB GENIEBOOK================================= -->
+
+                    <!-- ============================= TAB KAG================================= -->
+                    <div class="tab-pane fade active show" id="pills-kag" role="tabpanel">
+                        <div class="card border-0 mb-5 ">
+                            <div class="card-body">
+                                <h5 class="card-title">E-Procurement</h5>
+                                <p class="card-text fs-6">Develop a website for the procurement team to view offers that
+                                    is inputted
+                                    by the third-party vendor. This website was created using the Backend For Frontend
+                                    pattern and
+                                    also creating a console program that used for 2 ways synchronization between 2
+                                    different
+                                    databases.<p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">C#</button>
+                                <button type="button" class="btn btn-primary">ASP.NET Core</button>
+                                <button type="button" class="btn btn-primary">.Net Core</button>
+                                <button type="button" class="btn btn-primary">Microsoft SQL Server</button>
+                            </div>
+                        </div>
+
+                        <hr class="bg-danger border-2 border-top border-danger">
+
+                        <div class="card border-0 mb-5 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Cek Kesehatan Mandiri</h5>
+                                <p class="card-text fs-6">Maintain an existing codebase for a system that checks employee health each day by tracking user answers relating to Covid Pandemic.<br/>This system will save user answers for questions that have to be answered by employees every day and automatically flag if a user is at risk to be infected by Covid-19.<p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">PHP</button>
+                                <button type="button" class="btn btn-primary">Code Igniter</button>
+                                <button type="button" class="btn btn-primary">Java</button>
+                                <button type="button" class="btn btn-primary">MySQL</button>
+                                <button type="button" class="btn btn-primary">PostgreSQL</button>
+                                <button type="button" class="btn btn-primary">Odoo CRM</button>
+                            </div>
+                        </div>
+
+                        <hr class="bg-danger border-2 border-top border-danger">
+
+                        <div class="card border-0 mb-5 ">
+                            <div class="card-body">
+                                <h5 class="card-title">SALIS</h5>
+                                <p class="card-text fs-6">Maintain an existing codebase and continue adding a new feature to the website that keeps track of employee target for each year and Key Performance Index (KPI). There are many types of KPI for employees which have different types of reports that are created with SQL Server Reporting Service.<p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">C#</button>
+                                <button type="button" class="btn btn-primary">ASP.NET</button>
+                                <button type="button" class="btn btn-primary">Microsoft SQL Server</button>
+                                <button type="button" class="btn btn-primary">SQL Server Reporting Service</button>
+                            </div>
+                        </div>
+
+                        <hr class="bg-danger border-2 border-top border-danger">
+
+                        <div class="card border-0 mb-5 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Jadwal dan Notulen Meeting</h5>
+                                <p class="card-text fs-6">Develop a website that is used for creating meeting schedule and writing minutes of the meeting. This website has a feature to view, create, edit, and delete schedules. Users can also upload attachments to the website for certain meetings.<p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">C#</button>
+                                <button type="button" class="btn btn-primary">ASP.NET Core</button>
+                                <button type="button" class="btn btn-primary">Microsoft SQL Server</button>
+                                <button type="button" class="btn btn-primary">SQL Server Reporting Service</button>
+                            </div>
+                        </div>
+
+                        <hr class="bg-danger border-2 border-top border-danger">
+
+                        <div class="card border-0 mb-5 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Project Register</h5>
+                                <p class="card-text fs-6">Build a website to manage and document the progress of projects that is worked on by the department. On this website, users can input a template for registering a project that is used to pre-fill out the form for creating a project.<p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">C#</button>
+                                <button type="button" class="btn btn-primary">ASP.NET Core</button>
+                                <button type="button" class="btn btn-primary">Microsoft SQL Server</button>
+                                <button type="button" class="btn btn-primary">SQL Server Reporting Service</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================= END TAB KAG================================= -->
+
+
+                    <!-- ============================= TAB SPK================================= -->
+                    <div class="tab-pane fade" id="pills-spk" role="tabpanel">
+                        <div class="card border-0 mb-5">
+                            <div class="card-body">
+                                <h5 class="card-title">E-Service</h5>
+                                <p class="card-text fs-6">Successfully develop a website to manage requests between
+                                    departments.
+                                    Users
+                                    can also see the report for certain requests or departments to see how long it takes
+                                    time to
+                                    complete the request.</p>
+                                <p class="card-text fs-6">After this project was successfully implemented in Santos
+                                    Premium
+                                    Krimer
+                                    then
+                                    it begin to roll out to other Kapal Api companies such as Santos Jaya Abadi, Agel
+                                    Langgeng,
+                                    Excelso Multirasa, and Weiss Tech.</p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">C#</button>
+                                <button type="button" class="btn btn-primary">ASP .NET</button>
+                                <button type="button" class="btn btn-primary">Microsoft SQL Server</button>
+                            </div>
+                        </div>
+
+                        <hr class="bg-danger border-2 border-top border-danger">
+
+                        <div class="card border-0 mb-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Factory Monitoring System</h5>
+                                <p class="card-text fs-6">Build a service program that runs every minute to keep track
+                                    of hundreds
+                                    of production plant sensor values and save it in the database. There is also a
+                                    website that
+                                    shows the report visualized with a graph that users can use to see certain sensor
+                                    values in a
+                                    range of time.</p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">PHP</button>
+                                <button type="button" class="btn btn-primary">Laravel</button>
+                                <button type="button" class="btn btn-primary">MySQL</button>
+                                <button type="button" class="btn btn-primary">.Net</button>
+                            </div>
+                        </div>
+
+                        <hr class="bg-danger border-2 border-top border-danger">
+
+
+                        <div class="card border-0 mb-5">
+                            <div class="card-body">
+                                <h5 class="card-title">E-Checklist Reporting</h5>
+                                <p class="card-text fs-6">Create advance reporting for the E-Checklist website that is
+                                    used by the
+                                    production team. <br /> Due to the complexity of the report, they all are built
+                                    using SQL Server
+                                    Reporting Service (SSRS). </p>
+                                <p class="card-text fs-6">For each report there are multiple queries with subquery,
+                                    pivot table,
+                                    temporary table, and loops that are stored in a stored procedure, then we apply
+                                    custom
+                                    formatting and grouping in SSRS to display it. </p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">K2 Apps</button>
+                                <button type="button" class="btn btn-primary">SQL Server Reporting Service</button>
+                                <button type="button" class="btn btn-primary">Microsoft SQL Server</button>
+                            </div>
+                        </div>
+
+                        <hr class=" bg-danger border-2 border-top border-danger">
+
+                        <div class="card border-0 mb-5">
+                            <div class="card-body">
+                                <h5 class="card-title">SCADA</h5>
+                                <p class="card-text fs-6">Develop a desktop program that shows hundreds of production
+                                    packaging plan
+                                    sensor values in real-time and displays it as a machinery diagram with sensor
+                                    textbox and
+                                    picture that change color and text based on sensor value.</p>
+                                <p class="card-text fs-6">There are many types of sensors that have a different behavior
+                                    that has to
+                                    be implemented in the program using OOP.</p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <button type="button" class="btn btn-primary">C#</button>
+                                <button type="button" class="btn btn-primary">KepServer</button>
+                                <button type="button" class="btn btn-primary">.Net</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================= END tAB SPK================================= -->
+                </div>
+        </section>
+
+
+
+
+
+
+
+        <footer class="p-4 my-4 border-top row border-4">
+            <div class="col-3">
+                Built with <a class="link-laravel" href="www.laravel.com">Laravel</a>
+            </div>
+
+            <div class="col-3 offset-md-6 text-end">
+                <span class="">© 2022 Wibisono Indrawan</span>
+                <div class="text-muted" style="font-size:0.7rem;">This website was created as a learning medium for me
+                    to experiment with new things in
+                    programming</div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
