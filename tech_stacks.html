@@ -70,19 +70,19 @@
             text-decoration: underline;
         }
 
-        /* Education Area css
+        /* TechStacks Area css
         ============================================================================================ */
 
-        .education_area {
+        .techstacks_area {
             padding-bottom: 60px;
         }
 
-        .education_area .education_inner_area {
+        .techstacks_area .techstacks_inner_area {
             position: relative;
             overflow: hidden;
         }
 
-        .education_area .education_inner_area:before {
+        .techstacks_area .techstacks_inner_area:before {
             content: "";
             position: absolute;
             top: 0;
@@ -93,7 +93,7 @@
             background: rgba(254, 198, 8, 0.5);
         }
 
-        .education_area .education_inner_area .education_item {
+        .techstacks_area .techstacks_inner_area .techstacks_item {
             width: 50%;
             max-width: 420px;
             background: #fff;
@@ -103,7 +103,7 @@
             z-index: 2;
         }
 
-        .education_area .education_inner_area .education_item:before {
+        .techstacks_area .techstacks_inner_area .techstacks_item:before {
             content: attr(data-line);
             position: absolute;
             right: -18%;
@@ -122,7 +122,7 @@
             background: #fec608;
         }
 
-        .education_area .education_inner_area .education_item:after {
+        .techstacks_area .techstacks_inner_area .techstacks_item:after {
             content: "";
             background: #f7da7b;
             height: 4px;
@@ -132,52 +132,52 @@
             width: 119%;
         }
 
-        .education_area .education_inner_area .education_item:nth-child(even) {
+        .techstacks_area .techstacks_inner_area .techstacks_item:nth-child(even) {
             float: right;
         }
 
-        .education_area .education_inner_area .education_item:nth-child(even):before {
+        .techstacks_area .techstacks_inner_area .techstacks_item:nth-child(even):before {
             right: auto;
             left: -18%;
         }
 
-        .education_area .education_inner_area .education_item:nth-child(even):after {
+        .techstacks_area .techstacks_inner_area .techstacks_item:nth-child(even):after {
             left: -48px;
         }
 
-        .education_area .education_inner_area .education_item:nth-child(odd) {
+        .techstacks_area .techstacks_inner_area .techstacks_item:nth-child(odd) {
             float: left;
         }
 
-        .education_area .education_inner_area .education_item:nth-child(2) {
+        .techstacks_area .techstacks_inner_area .techstacks_item:nth-child(2) {
             margin-top: 108px;
         }
 
-        .education_area .education_inner_area .education_item:last-child {
+        .techstacks_area .techstacks_inner_area .techstacks_item:last-child {
             margin-bottom: 0px;
         }
 
-        .education_area .education_inner_area .education_item h6 {
+        .techstacks_area .techstacks_inner_area .techstacks_item h6 {
             font-size: 14px;
             color: #fec608;
             font-family: "Raleway", sans-serif;
             font-weight: bold;
         }
 
-        .education_area .education_inner_area .education_item h4 {
+        .techstacks_area .techstacks_inner_area .techstacks_item h4 {
             font-size: 18px;
             font-family: "Raleway", sans-serif;
             color: #333333;
             padding: 8px 0px 7px 0px;
         }
 
-        .education_area .education_inner_area .education_item h5 {
+        .techstacks_area .techstacks_inner_area .techstacks_item h5 {
             font-size: 14px;
             color: #333333;
             font-family: "Raleway", sans-serif;
         }
 
-        .education_area .education_inner_area .education_item p {
+        .techstacks_area .techstacks_inner_area .techstacks_item p {
             font-size: 13px;
             line-height: 24px;
             font-family: "Raleway", sans-serif;
@@ -186,7 +186,7 @@
             padding-top: 12px;
         }
 
-        /* End Education Area css
+        /* End TechStacks Area css
         ============================================================================================ */
     </style>
 </head>
@@ -204,10 +204,11 @@
                 <div class="person-title">Bachelor of Computer Science</div>
                 <div>
                     <nav class="nav">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" href="index.html">Experience</a>
                         <a class="nav-link" href="#">Projects</a>
                         <a class="nav-link" href="#">Educations</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Tech Stacks</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </nav>
                 </div>
             </div>
@@ -215,47 +216,61 @@
 
 
         <section class="section-content row py-4">
-            <div class="education_area">
+            <div class="techstacks_area">
                 <div class="main-title text-center">
-                    <h2>Educations</h2>
+                    <h2>Tech Stacks</h2>
                 </div>
 
-                <div class="mt-3 education_inner_area">
-                    <div class="education_item" data-line="">
+                <div class="mt-3 techstacks_inner_area">
+                    <div class="techstacks_item" data-line="">
                         <h6>2014-2018</h6>
                         <a href="#">
-                            <h4>College University</h4>
+                            <h4>Languages</h4>
                         </a>
-                        <h5>Universitas Surabaya</h5>
-                        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                       <ul>
+                           <li>PHP</li>
+                           <li>Javascript</li>
+                           <li>C#</li>
+                           <li>VB</li>
+                           <li>Golang</li>
+                       </ul>
                     </div>
-                    <div class="education_item" data-line="">
+                    <div class="techstacks_item" data-line="">
                         <h6>2011-2014</h6>
                         <a href="#">
-                            <h4>Senior High School</h4>
+                            <h4>Frameworks</h4>
                         </a>
-                        <h5>St. Carolus Senior High School</h5>
-                        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <ul>
+                            <li>Laravel</li>
+                            <li>Code Igniter</li>
+                            <li>.NET - ASP.NET</li>
+                            <li>.NET Core - ASP.NET Core</li>
+                            <li>Gin Gonic</li>
+                        </ul>
                     </div>
-                    <div class="education_item" data-line="">
+                    <div class="techstacks_item" data-line="">
                         <h6>2008-2011</h6>
                         <a href="#">
-                            <h4>Junior High School</h4>
+                            <h4>Database</h4>
                         </a>
-                        <h5>St. Carolus Junior High School</h5>
-                        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>PostgreSQL</li>
+                        </ul>
                     </div>
-                    <div class="education_item" data-line="">
+                    <div class="techstacks_item" data-line="">
                         <h6>2002-2008</h6>
                         <a href="#">
-                            <h4>Elementary School</h4>
+                            <h4>Others</h4>
                         </a>
-                        <h5>St. Carolus Elementary School</h5>
-                        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <ul>
+                            <li>Git</li>
+                            <li>Jira</li>
+                            <li>K2 Apps</li>
+                            <li>KepServer OPC Server</li>
+                            <li>SQL Server Reporting Service</li>
+                        </ul>
                     </div>
                 </div>
             </div>
