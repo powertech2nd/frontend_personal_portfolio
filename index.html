@@ -17,6 +17,7 @@
             --dark-secondary-color: #053661;
             --bs-link-color: var(--primary-color-indra);
             --bs-border-color-translucent: #08918d;
+            --bs-link-hover-color: #08918d;
         }
 
         .card{
@@ -45,6 +46,15 @@
             width: 1024px;
             /* background-color: rgb(198, 147, 147); */
             margin: auto;
+        }
+
+        header {
+            /* background-color: aqua; */
+            margin-bottom: 50px;
+        }
+
+        header .nav-link.active {
+            border-bottom: 5px solid var(--primary-color-indra);
         }
 
         .header-left {
@@ -106,7 +116,7 @@
                 <div class="person-title">Bachelor of Computer Science</div>
                 <div>
                     <nav class="nav">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link active" href="#">Experience</a>
                         <a class="nav-link" href="projects.html">Projects</a>
                         <a class="nav-link" href="tech_stacks.html">Tech Stacks</a>
                         <a class="nav-link" href="contact.html">Contact</a>

@@ -17,6 +17,7 @@
             --dark-secondary-color: #053661;
             --bs-link-color: var(--primary-color-indra);
             --bs-border-color-translucent: #08918d;
+            --bs-link-hover-color: #08918d;
         }
 
         .card {
@@ -49,6 +50,10 @@
         header {
             /* background-color: aqua; */
             margin-bottom: 50px;
+        }
+
+        header .nav-link.active {
+            border-bottom: 5px solid var(--primary-color-indra);
         }
 
         .header-left {
@@ -235,7 +240,7 @@
                     <nav class="nav">
                         <a class="nav-link" href="index.html">Experience</a>
                         <a class="nav-link" href="projects.html">Projects</a>
-                        <a class="nav-link" href="#">Tech Stacks</a>
+                        <a class="nav-link active" href="#">Tech Stacks</a>
                         <a class="nav-link" href="contact.html">Contact</a>
                     </nav>
                 </div>

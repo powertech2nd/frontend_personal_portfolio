@@ -11,15 +11,16 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <style>
-         :root {
+        :root {
             --primary-color-indra: #0df2eb;
             --dark-body-background-color: #031b30;
             --dark-secondary-color: #053661;
             --bs-link-color: var(--primary-color-indra);
             --bs-border-color-translucent: #08918d;
+            --bs-link-hover-color: #08918d;
         }
 
-        .card{
+        .card {
             --bs-card-bg: var(--dark-body-background-color);
         }
 
@@ -30,8 +31,12 @@
 
         .btn:hover {
             background-color: var(--dark-secondary-color);
-            border-color : var(--primary-color-indra);
+            border-color: var(--primary-color-indra);
             color: var(--primary-color-indra);
+        }
+
+        .nav-pills {
+            --bs-nav-pills-link-active-bg: #0d87f2;
         }
 
         .body-wrapper {
@@ -49,6 +54,10 @@
         header {
             /* background-color: aqua; */
             margin-bottom: 50px;
+        }
+
+        header .nav-link.active {
+            border-bottom: 5px solid var(--primary-color-indra);
         }
 
         .header-left {
@@ -114,7 +123,7 @@
                 <div>
                     <nav class="nav">
                         <a class="nav-link" href="index.html">Experience</a>
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link active" href="#">Projects</a>
                         <a class="nav-link" href="tech_stacks.html">Tech Stacks</a>
                         <a class="nav-link" href="contact.html">Contact</a>
                     </nav>
