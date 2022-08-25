@@ -11,11 +11,39 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <style>
+         :root {
+            --primary-color-indra: #0df2eb;
+            --dark-body-background-color: #031b30;
+            --dark-secondary-color: #053661;
+            --bs-link-color: var(--primary-color-indra);
+            --bs-border-color-translucent: #08918d;
+        }
+
+        .card{
+            --bs-card-bg: var(--dark-body-background-color);
+        }
+
+        .btn-primary {
+            --bs-btn-bg: var(--primary-color-indra);
+            --bs-btn-color: black;
+        }
+
+        .btn:hover {
+            background-color: var(--dark-secondary-color);
+            border-color : var(--primary-color-indra);
+            color: var(--primary-color-indra);
+        }
+
         .body-wrapper {
             padding: 80px 30px 30px;
             width: 1024px;
             /* background-color: rgb(198, 147, 147); */
             margin: auto;
+        }
+
+        body {
+            color: white;
+            background-color: var(--dark-body-background-color);
         }
 
         header {
@@ -88,7 +116,7 @@
                         <a class="nav-link" href="index.html">Experience</a>
                         <a class="nav-link" href="#">Projects</a>
                         <a class="nav-link" href="tech_stacks.html">Tech Stacks</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </nav>
                 </div>
             </div>
@@ -142,6 +170,8 @@
                             </div>
                         </div>
 
+                        <hr class="border-2 border-top">
+
                         <div class="card border-0 mb-5">
                             <div class="card-body">
                                 <h5 class="card-title">Geniebook Arena</h5>
@@ -189,7 +219,7 @@
                             </div>
                         </div>
 
-                        <hr class="bg-danger border-2 border-top border-danger">
+                        <hr class="border-2 border-top">
 
                         <div class="card border-0 mb-5 ">
                             <div class="card-body">
@@ -206,7 +236,7 @@
                             </div>
                         </div>
 
-                        <hr class="bg-danger border-2 border-top border-danger">
+                        <hr class="border-2 border-top">
 
                         <div class="card border-0 mb-5 ">
                             <div class="card-body">
@@ -221,7 +251,7 @@
                             </div>
                         </div>
 
-                        <hr class="bg-danger border-2 border-top border-danger">
+                        <hr class="border-2 border-top">
 
                         <div class="card border-0 mb-5 ">
                             <div class="card-body">
@@ -236,7 +266,7 @@
                             </div>
                         </div>
 
-                        <hr class="bg-danger border-2 border-top border-danger">
+                        <hr class="border-2 border-top">
 
                         <div class="card border-0 mb-5 ">
                             <div class="card-body">
@@ -280,7 +310,7 @@
                             </div>
                         </div>
 
-                        <hr class="bg-danger border-2 border-top border-danger">
+                        <hr class="border-2 border-top">
 
                         <div class="card border-0 mb-5">
                             <div class="card-body">
@@ -301,7 +331,7 @@
                             </div>
                         </div>
 
-                        <hr class="bg-danger border-2 border-top border-danger">
+                        <hr class="border-2 border-top">
 
 
                         <div class="card border-0 mb-5">
@@ -325,7 +355,7 @@
                             </div>
                         </div>
 
-                        <hr class=" bg-danger border-2 border-top border-danger">
+                        <hr class=" border-2 border-top">
 
                         <div class="card border-0 mb-5">
                             <div class="card-body">
