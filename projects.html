@@ -37,8 +37,19 @@
             color: var(--primary-color-indra);
         }
 
-        .nav-pills {
-            --bs-nav-pills-link-active-bg: var(--secondary-color-indra);
+        button.nav-link.active {
+            color: var(--primary-color-indra) !important;
+            background-color: var(--dark-body--color) !important;
+            border-color: var(--primary-color-indra) var(--primary-color-indra) var(--dark-body-background-color) !important;
+            font-weight: 600;
+        }
+
+        .nav-tabs{
+            --bs-nav-tabs-border-color : var(--primary-color-indra);
+        }
+
+        .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+            border-color : var(--primary-color-indra);
         }
 
         .body-wrapper {
@@ -235,23 +246,23 @@
             </div>
 
             <div class="card border-0 mb-5 col-11 m-auto mt-5">
-                <ul class="nav nav-pills mb-3 m-auto fs-5" id="pills-tab" role="tablist">
+                <ul class="nav nav-tabs mb-3 fs-5" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-geniebook-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-geniebook" type="button" role="tab">Geniebook</button>
+                        <button class="nav-link" id="tabs-geniebook-tab" data-bs-toggle="tab"
+                            data-bs-target="#tabs-geniebook" type="button" role="tab">Geniebook</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-kag-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-kag" type="button" role="tab">Kapal Api Global</button>
+                        <button class="nav-link active" id="tabs-kag-tab" data-bs-toggle="tab"
+                            data-bs-target="#tabs-kag" type="button" role="tab">Kapal Api Global</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-spk-tab" data-bs-toggle="pill" data-bs-target="#pills-spk"
+                        <button class="nav-link" id="tabs-spk-tab" data-bs-toggle="tab" data-bs-target="#tabs-spk"
                             type="button" role="tab">Santos Premium Krimer</button>
                     </li>
                 </ul>
-                <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content" id="tabs-tabContent">
                     <!-- ============================= TAB Geniebook================================= -->
-                    <div class="tab-pane fade" id="pills-geniebook" role="tabpanel">
+                    <div class="tab-pane fade" id="tabs-geniebook" role="tabpanel">
                         <div class="card border-0">
                             <div class="card-body">
                                 <h5 class="card-title">Geniebook Admin</h5>
@@ -305,7 +316,7 @@
                     <!-- ============================= END TAB GENIEBOOK================================= -->
 
                     <!-- ============================= TAB KAG================================= -->
-                    <div class="tab-pane fade active show" id="pills-kag" role="tabpanel">
+                    <div class="tab-pane fade active show" id="tabs-kag" role="tabpanel">
                         <div class="card border-0 ">
                             <div class="card-body">
                                 <h5 class="card-title">E-Procurement</h5>
@@ -391,7 +402,7 @@
 
 
                     <!-- ============================= TAB SPK================================= -->
-                    <div class="tab-pane fade" id="pills-spk" role="tabpanel">
+                    <div class="tab-pane fade" id="tabs-spk" role="tabpanel">
                         <div class="card border-0">
                             <div class="card-body">
                                 <h5 class="card-title">E-Service</h5>
